@@ -3,6 +3,7 @@
 A project for CMSI 2021
 
 https://compound-interest-calculator.stephsusilo1.repl.co/
+https://stephsusilo.github.io/compound-interest-calculator/
 
 This tool is a calculator to calculate compound interest using four inputs: principal amount, number of times compounded annually, total number of years compounded, and interest rate.
 
