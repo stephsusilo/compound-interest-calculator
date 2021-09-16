@@ -11,7 +11,6 @@ function computeCompoundInterest(){
   const totalYears = totalYearsBox.value;
   const interestRate = interestRateSlider.value;
   const interestRateDecimal = interestRate / 100;
-  
   const totalAmount = principal * (Math.pow((1 + (interestRateDecimal / timesCompounded)), (timesCompounded * totalYears)));
   const interest = totalAmount - principal;
   
