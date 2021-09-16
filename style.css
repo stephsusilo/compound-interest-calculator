@@ -1,0 +1,101 @@
+body {
+    background-image: linear-gradient(-180deg, #FFFFFF, #e9f5fd, #E1F0FB);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    margin: 0;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #4C4141;
+    font-family: "Oswald", sans-serif;
+    text-shadow: 1px 1px 2px rgb(125, 207, 255);
+    text-transform: uppercase;
+  }
+  
+  h1:hover {
+    transform: rotate(180deg);
+  }
+  
+  #result {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: 45% 10% 30%;
+    background: rgb(211, 228, 197);
+    width: auto;
+    height: auto;
+    border-style: inset;
+    border-radius: 20px;
+    padding: 15px;
+    margin: 10px;
+    color: #404544;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  #calculator {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: 50% 50%;
+    row-gap: 20px;
+    column-gap: 10px;
+    background: white;
+    width: auto;
+    height: auto;
+    border-style: outset;
+    border-radius: 20px;
+    box-shadow: 1px 2px whitesmoke;
+    padding: 15px;
+    margin: 10px;
+    color: #404544;
+    font-family: "Open Sans Condensed", sans-serif;
+    font-size: 17px;
+  }
+  
+  #principal, #intRate, #timesCompounded, #numYearsTotal {
+    width: auto;
+    height: auto;
+    font-weight: bold;
+    border-radius: 9px;
+    border-width: 1.5px;
+    border-color: whitesmoke;
+  }
+  
+  #imageBg {
+    width: auto;
+    height: auto;
+    margin: 10px;
+    background: #262626;
+    border-style: outset;
+    border-radius: 9px;
+  }
+  
+  #moneyCloud {
+    display: block;
+    width: 15%;
+    margin: auto;
+  }
+  
+  #moneyCloud:hover {
+    background: white;
+    box-shadow: 0 0 20px 10px rgba(173, 255, 47, 0.4);
+    border-radius: 20px;
+  }
+  
+  footer {
+    display: grid;
+    grid-template-rows: auto auto;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    padding: 10px;
+    background-color: rgb(211, 228, 197);
+    font-family: "Oswald", sans-serif;
+    font-size: 15px;
+    color: white;
+  }

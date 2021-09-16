@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Compound Interest Calculator</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&family=Oswald&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Compound Interest Calculator</h1>
+    <div id="result">
+      Total amount <div>$</div><span id="totalAmt"></span>
+      Compound interest <div>$</div><span id="compoundInterest"></span>
+    </div>
+    <div id="calculator">
+      Principal <input type="number" id="principal">
+      # of Times Compounded Annually <input type="number" id="timesCompounded">
+      Total # of Years <input type="number" id="numYearsTotal">
+      Interest Rate (%) <input id="intRateSlider" type="range" value="0" max="100" oninput="intPercent.value = this.value">
+      % Value <output id="intPercent"></output>
+    </div>
+    <div id="imageBg">
+      <a href="https://youtu.be/ETxmCCsMoD0?t=47">
+        <img id="moneyCloud" src="https://media1.giphy.com/media/KTch8alOZ9yc8/giphy.gif?cid=ecf05e47qtztwfd02fwzlealsdgqs6n4j7i4o9sy57etwczo&rid=giphy.gif&ct=g"></a>
+    </div>
+  <footer>
+    &copy 2021 Stephanie Susilo
+    <a href="https://github.com/stephsusilo/compound-interest-calculator.git">GitHub Repo</a>
+  </footer>
+  <script src="script.js"></script>
+  </body>
+</html>
