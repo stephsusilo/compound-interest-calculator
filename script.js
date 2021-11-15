@@ -2,7 +2,7 @@ const principalBox = document.querySelector("#principal");
 const timesCompoundedBox = document.querySelector("#timesCompounded");
 const totalYearsBox = document.querySelector("#numYearsTotal");
 const interestRateSlider = document.querySelector("#intRateSlider");
-const totalAmtSpan = document.querySelector("#totalAmt");
+const totalAmountSpan = document.querySelector("#totalAmt");
 const compoundInterestSpan = document.querySelector("#compoundInterest");
 
 function computeCompoundInterest(){
@@ -14,7 +14,7 @@ function computeCompoundInterest(){
   const totalAmount = principal * (Math.pow((1 + (interestRateDecimal / timesCompounded)), (timesCompounded * totalYears)));
   const interest = totalAmount - principal;
   
-  totalAmtSpan.textContent = totalAmount;
+  totalAmountSpan.textContent = totalAmount;
   compoundInterestSpan.textContent = interest; 
 }
 
